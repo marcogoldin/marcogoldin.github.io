@@ -1,13 +1,13 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Nuove test - The listicle.</title>  
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <link href="http://fargo.io/code/bootstrap.css" rel="stylesheet">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js" rel="stylesheet">
 
 <link rel="stylesheet" href="http://fargo.io/code/fontAwesome/css/font-awesome.min.css"/>
 <link href="http://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css">
@@ -32,9 +32,9 @@
 		<!-- Facebook metadata -->
 			<meta property="og:url" content="http://listicle.io/cluetrain/" />
 			<meta property="og:type" content="website" />
-			<meta property="og:title" content="The Clutrain Listicle" />
-			<meta property="og:description" content="Lists are great! Why should linkbaiters have all the fun. What about you and me?" />
-			<meta property="og:image" content="http://projectanimation.altervista.org/nuovetesi/img/bg_nuovetesi.png" />
+			<meta property="og:title" content="Presentazione di Nuove tesi" />
+			<meta property="og:description" content="New Clues di Weinberger e Searls in italiano!" />
+			<meta property="og:image" content="http://static.scripting.com/larryKing/images/2015/01/02/armadilloBike.jpg" />
 			<meta property="og:site_name" content="listicle.io" />
 		<script>
 			var appConsts = {
@@ -44,7 +44,7 @@
 			var appPrefs = {
 				ixCurrentClue: 1 //1-based index into the clues array
 				};
-			var urlClues = "https://dl.dropboxusercontent.com/u/368662/clues_.json"; //"https://dl.dropboxusercontent.com/u/36518280/misc/clues.json";
+			var urlClues = "https://www.dropbox.com/s/i2k5sacw5pvxc5r/nuovetesi_.json?dl=0"; //"https://dl.dropboxusercontent.com/u/36518280/misc/clues.json";
 			var cluesArray;
 			var whenLastUserAction;
 			
@@ -88,7 +88,7 @@
 						ix = cluesArray.length;
 						}
 				var permalink = "?clue=" + ix;
-				$("#idClueLink").html ("<a href=\"" + permalink + "\">Clue #" + ix + ":</a>");
+				$("#idClueLink").html ("<a href=\"" + permalink + "\">Tesi #" + ix + ":</a>");
 				$("#idListicleText").html (cluesArray [ix - 1]);
 				appPrefs.ixCurrentClue = ix;
 				updateArrows ();
@@ -147,10 +147,10 @@
 					showClue (ixclue);
 					
 					
-					var rtlink = "<span class=\"spInfoLink\"><a onclick=\"twitterIconClick ()\" title=\"Send this clue to your Twitter followers.\"><i class=\"fa fa-twitter\"></i></a></span>"
+					var rtlink = "<span class=\"spInfoLink\"><a onclick=\"twitterIconClick ()\" title=\"Condividi questa tesi con i tuoi follower su Twitter.\"><i class=\"fa fa-twitter\"></i></a></span>"
 					var infolink = "<span class=\"spInfoLink\"><a onclick=\"infoIconClick ()\"><i class=\"fa fa-info-circle\"></i></a></span>";
 					var homelink = "<span class=\"spHomeLink\"><a onclick=\"homeIconClick ()\"><i class=\"fa fa-home\"></i></a></span>";
-					var titlelink = "<a href=\"http://scripting.com/2015/01/08/aCluetrainListicle.html\" target=\"_blank\">Cluetrain: The listicle</a>."
+					var titlelink = "<a href=\"http://scripting.com/2015/01/08/aCluetrainListicle.html\" target=\"_blank\">Nuove tesi: presentazione</a>."
 					$("#idTitle").html (homelink + titlelink + infolink + rtlink);
 					$("body").keyup (function (ev) {
 						switch (ev.which) {
@@ -323,7 +323,7 @@
 		<div class="divVersionNumber" id="idVersionNumber">
 			</div>
 		<div class="divTextContainer" id="idTextContainer">
-			<div class="divBackgroundImage" style="background-image: url(http://projectanimation.altervista.org/nuovetesi/img/bg_nuovetesi.png);">
+			<div class="divBackgroundImage" style="background-image: url(http://static.scripting.com/larryKing/images/2015/01/02/armadilloBike.jpg);">
 				<div class="divOverlay"></div>
 				<div class="divListicleBody">
 					<div class="divListicleControls">

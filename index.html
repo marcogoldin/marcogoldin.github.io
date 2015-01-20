@@ -86,16 +86,16 @@
 					if (ix > cluesArray.length) {
 						ix = cluesArray.length;
 						}
-				var permalink = "?clue=" + ix;
-				$("#idClueLink").html ("<a href=\"" + permalink + "\">Clue #" + ix + ":</a>");
+				var permalink = "?tesi=" + ix;
+				$("#idClueLink").html ("<a href=\"" + permalink + "\">Tesi #" + ix + ":</a>");
 				$("#idListicleText").html (cluesArray [ix - 1]);
 				appPrefs.ixCurrentClue = ix;
 				updateArrows ();
 				savePrefs ();
 				}
 			function twitterIconClick () {
-				var url = "http://listicle.io/cluetrain/?clue=" + appPrefs.ixCurrentClue;
-				var text = encodeURIComponent ("Clue #" + appPrefs.ixCurrentClue + ": " + cluesArray [appPrefs.ixCurrentClue - 1] + " " + url);
+				var url = "http://marcogoldin.github.io/?tesi=" + appPrefs.ixCurrentClue;
+				var text = encodeURIComponent ("Tesi #" + appPrefs.ixCurrentClue + ": " + cluesArray [appPrefs.ixCurrentClue - 1] + " " + url);
 				window.open ("https://twitter.com/intent/tweet?text=" + text, "_blank", "left=200,top=300,location=no,height=350,width=600,scrollbars=no,status=no");
 				}
 			function prevClue () {

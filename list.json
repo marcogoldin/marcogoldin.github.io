@@ -3,7 +3,7 @@
 	"link": "https://medium.com/@nuovetesi/nuove-tesi-4a1def360351",
 	"about": "Questa è una presentazione di Nuove Tesi, traduzione italiana di New Clues di David Weinberger e Doc Searls, realizzata da <a href=\"https://twitter.com/aubreymcfato\">Andrea Zanni</a>, <a href=\"https://twitter.com/fraenrico\">Enrico Francese</a>, <a href=\"https://twitter.com/inmediaref\">Marco Goldin</a> e rilasciata con licenza CC-BY-SA. Il JSON con il testo è disponibile <a href=\"https://github.com/marcogoldin/marcogoldin.github.io/blob/master/list.json\">qui</a>. L'immagine sullo sfondo è opera di <a href=\"https://twitter.com/deejayres\">Erin Resso</a> e rilasciata con <a href=\"http://wwwcdn.w3layouts.com/wp-content/uploads/2013/12/3\">licenza Creative Commons</a>. Lo script originale per questo sito è stato inizialmente sviluppato da Dave Winer.",
 	"urlBackgroundImage": "https://farm8.staticflickr.com/7173/6555965015_73b4e8533e_o.jpg",
-	"opacityBackground": "0.6",
+	"opacityBackground": "0.5",
 	"itemLabel": "Tesi",
 	"author": {
 		"name": "@aubreymcfato @fraenrico @inmediaref",

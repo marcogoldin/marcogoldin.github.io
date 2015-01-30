@@ -3,7 +3,7 @@
 	"link": "https://medium.com/@nuovetesi/nuove-tesi-4a1def360351",
 	"about": "Questa è una presentazione di Nuove Tesi, traduzione italiana di \"New Clues\" di David Weinberger e Doc Searls, realizzata da <a href=\"https://twitter.com/aubreymcfato\" target=\"_blank\">Andrea Zanni</a>, <a href=\"https://twitter.com/fraenrico\" target=\"_blank\">Enrico Francese</a>, <a href=\"https://twitter.com/inmediaref\" target=\"_blank\">Marco Goldin</a> e rilasciata con licenza CC-BY-SA. Il JSON con il testo è disponibile <a href=\"https://github.com/marcogoldin/marcogoldin.github.io/blob/master/list.json\" target=\"_blank\">qui</a>. L'immagine (qui modificata) è opera di <a href=\"https://flic.kr/p/aZk2Zz\" target=\"_blank\">János Balázs</a> e rilasciata con <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" target=\"_blank\">licenza Creative Commons</a>. Lo script originale per questo sito è stato inizialmente sviluppato da <a href=\"https://github.com/scripting/listicle\" target=\"_blank\">Dave Winer</a>.",
 	"urlBackgroundImage": "http://i.imgbox.com/J9zuqFMQ.jpg",
-	"opacityBackground": "0.5",
+	"opacityBackground": "0.6",
 	"itemLabel": "Tesi",
 	"author": {
 		"name": "<a href=\"https://twitter.com/aubreymcfato\" target=\"_blank\">@aubreymcfato</a> <a href=\"https://twitter.com/fraenrico\" target=\"_blank\">@fraenrico</a> <a href=\"https://twitter.com/inmediaref\" target=\"_blank\">@inmediaref</a>",
